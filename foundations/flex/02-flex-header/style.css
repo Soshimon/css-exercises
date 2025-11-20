@@ -5,6 +5,7 @@
   /*start of declaring flex properties */
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .logo {
@@ -13,9 +14,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-
-  /*start of declaring flex properties */
-  align-self: center;
 }
 
 
@@ -25,7 +23,9 @@ ul {
 
   /*start of declaring flex properties */
   display: flex;
-
+  margin: 0px;
+  padding: 0px;
+  gap: 10px;
 }
 
 a {
@@ -34,6 +34,14 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
 
-  /*start of declaring flex properties */
+.left-links {
+  display: flex;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
 }
