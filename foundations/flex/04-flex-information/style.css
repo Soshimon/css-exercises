@@ -10,7 +10,33 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /*my answer*/
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+  /*end of my answer*/
 }
+
+/*my added rules*/
+
+.flex-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  text-align: center;
+  
+}
+
+.flex-item {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+}
+
+/* end of added rules */
+
 
 /* do not edit this footer */
 .footer {
