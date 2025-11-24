@@ -67,3 +67,27 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* add rules here */
+.header {
+  font-weight: bold;
+}
+
+.flex-main {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 16px;
+}
+
+.flex-right-header-and-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-right-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
