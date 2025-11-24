@@ -75,7 +75,6 @@ button.cancel {
 
 .flex-main {
   display: flex;
-  justify-content: space-around;
   gap: 16px;
   padding: 16px;
 }
@@ -83,6 +82,7 @@ button.cancel {
 .flex-right-header-and-button {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .flex-right-item {
