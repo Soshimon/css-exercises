@@ -51,6 +51,7 @@ body {
 
 .content {
   display: flex;
+
 }
 
 .header,.footer {
@@ -71,7 +72,16 @@ body {
 
 .main-content {
   display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 40px;
 }
+
+.card {
+  display: flex;
+  width: 300px;
+}
+
 
 .footer {
   justify-content: center;
