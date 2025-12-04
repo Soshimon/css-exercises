@@ -14,7 +14,10 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  /* added this in */
+  border-radius: 5px;
+  padding: 8px 16px;
+  /* ends here */
   background: #eee;
 }
 
@@ -24,3 +27,26 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My answers below */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links,.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+}
+/* ends here */
