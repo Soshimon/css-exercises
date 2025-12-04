@@ -29,14 +29,23 @@ input {
 }
 
 /* My answers below */
-.header {
+.flex-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header,.footer {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .left-links,.right-links {
   display: flex;
-  gap: 10px;
+  gap: 16px;
+  padding: 2px 8px;
 }
 
 .content {
@@ -47,6 +56,16 @@ input {
 }
 
 .footer {
-  display: flex;
+  background-color: #eee;
+  align-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
 /* ends here */
