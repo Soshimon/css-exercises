@@ -46,12 +46,8 @@ ul li {
 
 body {
   display: flex;
-  flex-direction: column;
-}
-
-.content {
-  display: flex;
-
+  flex-direction: column; 
+  justify-content: space-between;
 }
 
 .header,.footer {
@@ -62,12 +58,21 @@ body {
 .header {
   font-weight: bold;
   font-size: 32px;
+  padding-left: 16px;
+}
+
+.footer {
+  justify-content: center;
 }
 
 .sidebar {
   display: flex;
-  flex-direction: row;
   flex: 1 0 auto;
+}
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
 }
 
 .main-content {
@@ -80,9 +85,5 @@ body {
 .card {
   display: flex;
   width: 300px;
-}
-
-
-.footer {
-  justify-content: center;
+  padding: 8px;
 }
